@@ -41,9 +41,9 @@ namespace south.application.services
 
             var worstSalesman = SalesmanService.GetWorstSalesman(sales, salesmen);
 
-            sb.AppendFormat("Number of clients: %d\n", numberOfClients);
-            sb.AppendFormat("Number of salesmen: %d\n", numberOfSalesmen);
-            sb.AppendFormat("Most Expensive sale ID: %d\n", mostExpensive.Id);
+            sb.AppendFormat("Number of clients: {0}", numberOfClients).AppendLine();
+            sb.AppendFormat("Number of salesmen: {0}", numberOfSalesmen).AppendLine();
+            sb.AppendFormat("Most Expensive sale ID: {0}", mostExpensive.Id).AppendLine();
             sb.Append("Worst salesman: ").Append(worstSalesman).AppendLine();
 
             return sb.ToString();
