@@ -7,5 +7,7 @@ namespace south.domain.model
         public string CPF { get; set; }
         public string Name { get; set; }
         public double Salary { get; set; }
+
+        public override string ToString() => $"{Name} - CPF: {CPF} - Salary: {Salary}";
     }
 }
