@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace south.app
+namespace south
 {
     class Program
     {
