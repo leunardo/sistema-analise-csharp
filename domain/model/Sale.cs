@@ -6,7 +6,7 @@ namespace south.domain.model
     public class Sale : IData
     {
         public int Id { get; set; }
-        public IEnumerable<Item> items { get; set; }
-        public string salesmanName { get; set; }
+        public IEnumerable<Item> Items { get; set; }
+        public string SalesmanName { get; set; }
     }
 }
