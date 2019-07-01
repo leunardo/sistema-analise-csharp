@@ -14,8 +14,8 @@ namespace south.application.factory
             return new Item
             {
                 Id = int.Parse(values[0]),
-                Price = int.Parse(values[1]),
-                Quantity = int.Parse(values[2]),
+                Quantity = int.Parse(values[1]),
+                Price = double.Parse(values[2]),
                 SalesmanName = salesmanName
             };
         }
